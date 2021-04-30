@@ -2,6 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Made with React, Tailwind and Firebase
+Check [Demo](https://todo-tracker-react-firebase.netlify.app/)
 
 ## Available Scripts
 
