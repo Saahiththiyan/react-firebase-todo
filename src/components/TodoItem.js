@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCheckCircle, FaTrashAlt } from "react-icons/fa";
+import { motion } from "framer-motion";
 import firebase from "../utils/firebase";
 
 export default function TodoItem({ todo }) {
@@ -15,7 +16,23 @@ export default function TodoItem({ todo }) {
   };
 
   return (
-    <div
+    <motion.div
+      layout
+      initial={{
+        opacity: 0,
+        x: -10,
+      }}
+      animate={{
+        opacity: 1,
+        x: 0,
+      }}
+      exit={{
+        opacity: 0,
+        x: -10,
+      }}
+      transition={{
+        duration: 0.1,
+      }}
       className={
         "bg-gray-100 rounded-xl p-2 mb-2 " +
         (todo.complete ? "bg-green-100" : "")
@@ -49,6 +66,6 @@ export default function TodoItem({ todo }) {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

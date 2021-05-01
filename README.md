@@ -1,8 +1,16 @@
-# Getting Started with Create React App
+<p align="center">
+  <h3 align="center">Todo App</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Made with React, Tailwind and Firebase
-Check [Demo](https://todo-tracker-react-firebase.netlify.app/)
+  <p align="center">
+    A Todo App made with React, Tailwind, Framer Motion and Firebase
+    <br />
+    <a href="https://todo-tracker-react-firebase.netlify.app/">View Demo</a><br/>
+  <a href="https://todo-tracker-react-firebase.netlify.app/">
+    <img src="images/screenshot.png">
+  </a>
+  </p>
+
+</p>
 
 ## Available Scripts
 
